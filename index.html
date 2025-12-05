@@ -49,7 +49,8 @@
             font-size: 36px;
             margin-bottom: 15px;
         }
-        p {
+        /* Ajuste para o novo texto principal */
+        .main-text {
             font-size: 18px;
             margin-bottom: 30px;
             line-height: 1.6;
@@ -67,11 +68,18 @@
             cursor: pointer;
             transition: all 0.3s ease;
             box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+            margin-bottom: 20px; /* Adiciona espaço para o subtítulo */
         }
         .whatsapp-button:hover {
             background: #1EBE5E;
             transform: translateY(-2px);
             box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+        }
+        /* Estilo para o novo subtítulo de suporte */
+        .support-text {
+            font-size: 14px;
+            color: #555555;
+            margin-top: 10px;
         }
     </style>
 </head>
@@ -79,11 +87,17 @@
 
 <div class="container">
     <h1>Obrigado!</h1>
-    <p>Seu e-book está a caminho do seu e-mail. Para garantir que você receba o arquivo imediatamente e não perca nossos conteúdos exclusivos, <strong>clique no botão abaixo para entrar em nosso Canal VIP no WhatsApp.</strong></p>
+    
+    <p class="main-text">Seu e-book está a um passo. Para garantir que você receba o arquivo imediatamente e não perca nossos conteúdos exclusivos, 
+        **clique no botão abaixo para entrar em nosso Canal VIP no WhatsApp. O link do ebook está fixado no canal!**
+    </p>
     
     <a href="https://whatsapp.com/channel/0029VbC3exq60eBfMaeh8r0o" target="_blank" class="whatsapp-button">
         👉 Entrar no Canal VIP do WhatsApp
     </a>
+    
+    <p class="support-text">Caso precise de ajuda pode nos chamar através do canal do whatsapp</p>
+
 </div>
 
 </body>
